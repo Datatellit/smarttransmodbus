@@ -1,0 +1,53 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-898558598
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=Config_t-nodeID	3	0
+Fmt1=MyMsgHeader_t-command_ack_payload	4	0
+Fmt2=MyMsgHeader_t-destination	4	0
+Fmt3=MyMsgHeader_t-last	4	0
+Fmt4=MyMsgHeader_t-sender	4	0
+Fmt5=MyMsgHeader_t-sensor	4	0
+Fmt6=MyMsgHeader_t-type	4	0
+Fmt7=MyMsgHeader_t-version_length	4	0
+[array_types]
+Fmt0=char[26]	4	0
+Fmt1=unsigned char[256]	3	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\xlightCommon-stm8s\Xlight_lib\Uart2Dev.c}.35.21" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\Project\modbus\mbascii.c}.425.5" 1 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\Project\modbus\porttimer.c}.100.3" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\Project\src\main.c}.441.5" 1 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\Project\src\main.c}.442.5" 1 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\Project\src\main.c}.476.17" 1 0 0 0 "" 0 ""
+Count=6
+[Aliases]
+Count=0
+SuppressDialog=0
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
